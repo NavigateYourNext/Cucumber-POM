@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Login",
+        "description": "",
+        "id": "validate-login-amazon-feature;validate-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8782247122,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28053510,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6664017035,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters Username and Password",
+            "match": {
+              "location": "HomePageSteps.user_enters_Username_and_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93752453,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate logged in user",
+            "match": {
+              "location": "HomePageSteps.validate_logged_in_user()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 804845769,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user closed the browser",
+            "match": {
+              "location": "HomePageSteps.user_closed_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Login Amazon Feature",
+    "description": "",
+    "id": "validate-login-amazon-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/akshay.shete/workspace/CucumberPOM/src/main/java/com/qa/features/Amazon.feature"
+  }
+]
