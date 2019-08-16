@@ -32,7 +32,12 @@
 
 		<!-- https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport -->
 
-
+		<!-- https://mvnrepository.com/artifact/junit/junit-dep -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit-dep</artifactId>
+			<version>4.8.2</version>
+		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
