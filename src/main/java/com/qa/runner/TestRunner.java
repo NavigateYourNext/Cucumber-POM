@@ -17,5 +17,6 @@ strict = true //make it true :- It will failed execution if any stepDefination m
 
 public class TestRunner
 {
-
+	//if you got error as package org.junit.runner does not exist then add dependancy "junit-dep" this
+	//removed all <scope> tags from pom.xml
 }
